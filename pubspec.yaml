@@ -31,6 +31,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  intl: ^0.18.0
   flutter_phoenix: ^1.1.1
   supabase_flutter: ^2.8.4
   google_sign_in: ^6.3.0
@@ -59,17 +60,14 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
-
   flutter_lints: ^5.0.0
 
 flutter:
- assets:
+  assets:
     - lib/assets/
     - lib/assets/map_style_dark.json
     - lib/assets/map_style_light.json
     - lib/assets/car_icon.png
     - lib/assets/car_marker.png
     - assets/alert.mp3
- 
-uses-material-design: true
-
+  uses-material-design: true
